@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="shortcut icon" rel="noopener noreferrer" href="favicon.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+	<link rel="stylesheet" rel="noopener noreferrer" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" rel="noopener noreferrer" href="style.css">
+	<title>Harshit Garg</title>
+</head>
+
+<body>
+
+	<div class="loader-bg" id="loading">
+		<div class="loader" id="loader"></div>
+		<div class="loader" id="loader2"></div>
+		<div class="loader" id="loader3"></div>
+		<div class="loader" id="loader4"></div>
+		<span id="text">LOADING...</span><br>
+	</div>
+
+	<nav id="nav">
+
+		<div class="bars text-left" id="btn">
+			<i class="fas fa-bars"></i>
+		</div>
+
+		<!-- for mobile view navbar-->
+		<div id="popup" class="list-popup">
+			<div class="popup-content" id="content">
+
+				<span class="close"><i class="fas fa-arrow-left"></i></span>
+
+				<div class="inside-popup">
+
+					<div class="navigation">
+						Navigation
+					</div>
+
+					<div class="modal-container">
+						<a rel="noopener noreferrer" href="#"><i class="fas fa-home"></i> Home </a>
+
+						<a rel="noopener noreferrer" href="#about"><i class="fas fa-pen"></i> About </a>
+
+						<a rel="noopener noreferrer" href="#skills" class="skillsLoading" ><i class="fas fa-chalkboard-teacher"></i> Skills </a>
+
+						<a rel="noopener noreferrer" href="#experience"><i class="fas fa-briefcase"></i>Experience</a>
+
+						<a rel="noopener noreferrer" href="#education"><i class="fas fa-graduation-cap"></i>Education</a>
+
+						<a rel="noopener noreferrer" href="#portfolio"><i class="fas fa-th-list"></i>Portfolio</a>
+
+						<a rel="noopener noreferrer" href="#contact"><i class="far fa-address-card"></i>Contact</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- For Laptop View navbar-->
+		<ul class="no-list-style horizontal-list text-center nav-menu">
+			<li>
+				<a rel="noopener noreferrer" href="#"> Home </a>
+			</li>
+			<li>
+				<a rel="noopener noreferrer" href="#about"> About </a>
+			</li>
+			<li>
+				<a rel="noopener noreferrer" href="#skills" class="skillsLoading" > Skills </a>
+			</li>
+			<li>
+				<a rel="noopener noreferrer" href="#experience">Experience</a>
+			</li>
+			<li>
+				<a rel="noopener noreferrer" href="#education">Education</a>
+			</li>
+			<li>
+				<a rel="noopener noreferrer" href="#portfolio">Portfolio</a>
+			</li>
+			<li>
+				<a rel="noopener noreferrer" href="#contact">Contact</a>
+			</li>
+		</ul>
+
+		<a class="resume" rel="noopener noreferrer" href="Harshit's Resume.pdf">
+		<button class="resume_download">
+			My Resume
+		</button>
+		</a>
+
+	</nav>
+
+	<header id="body-header">
+		<div>
+			<div id="name-social-container">
+				<div class="text-center">
+					<h1 id="my-name">
+						Harshit Garg
+					</h1>
+				</div>
+
+				<div class="social-icon-container">
+					<ul class="horizontal-list text-center social-icons">
+						<li>
+							<!-- linkedin -->
+							<a rel="noopener noreferrer" href="https://www.linkedin.com/in/harshitgarg-mercuryhg007/"><i
+									class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li>
+							<!-- mailto -->
+							<a rel="noopener noreferrer" href="mailto:ggharshit1@gmail.com"><i class="fas fa-envelope"></i>
+							</a>
+						</li>
+						<li>
+							<!--  Gihub  -->
+							<a rel="noopener noreferrer" href="https://github.com/MercuryHG007"><i class="fab fa-github"></i></i>
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+	</header>
+
+	<main>
+
+		<!-- Scroll to top button -->
+		<!-- <div id="to-top">
+			<button id="ToTop" onclick="topFunction()"> 
+				<img src="https://cdn-icons.flaticon.com/png/512/2767/premium/2767220.png?token=exp=1656842081~hmac=207baeda78aaa80017f30c05c286918e"> 
+				<span>To Top</span>
+			</button>
+		</div> -->
+
+		<!-- all info -->
+
+		<section id="about">
+			<div id="my-image">
+				<img src="myself.jpg">
+			</div>
+			<p>
+				I am a coding enthusiast proficient in Data Structures and Algorithms and
+				<span class="text-highlight">MERN Stack Web Development</span>.
+				Innovative optimized solution seeker. Excited to be at the Development phase
+				of my career as a web developer. Possess a strong attention to detail,
+				<span class="text-highlight">well-developed time management skills </span>,
+				and ability to complete all projects within schedule and in a timely manner
+			</p>
+		</section>
+
+		<section id="skills">
+			<h1 class="section-heading mb75px ">
+				<span>
+					<i class="fas fa-chalkboard-teacher"></i>
+				</span>
+				<span>SKILLS</span>
+			</h1>
+
+			<div class="skills-display">
+
+				<div class="skill-progress">
+					<div class="mb-orange f85">
+						<div class="skill-name">
+							<span> HTML </span>
+						</div>
+					</div>
+				</div>
+				<div class="skill-progress">
+					<div class="mb-gold f85">
+						<div class="skill-name">
+							<span> CSS </span>
+						</div>
+					</div>
+				</div>
+				<div class="skill-progress">
+					<div class="mb-light-purple f80">
+						<div class="skill-name">
+							<span> Javascript </span>
+						</div>
+					</div>
+				</div>
+					<div class="skill-progress">
+					<div class="mb-orange f85">
+						<div class="skill-name" >
+							<span>ReactJs</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="skill-progress">
+					<div class="mb-teal f70">
+						<div class="skill-name">
+							<span> NodeJs </span>
+						</div>
+					</div>
+				</div>
+				<div class="skill-progress">
+					<div class="mb-teal f85">
+						<div class="skill-name">
+							<span> MongoDB </span>
+						</div>
+					</div>
+				</div>
+				<div class="skill-progress">
+					<div class="mb-blue f70" id="node">
+						<div class="skill-name">
+							<span> ExpressJs </span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="experience">
+
+			<h1 class="section-heading mb75px">
+				<span class="WE">
+					<i class="fas fa-briefcase"></i>
+				</span>
+				<span class="WE"> Work Experience </span>
+			</h1>
+
+			<div class="timeline">
+
+				<!-- change after more experience -->
+
+				<div class="timeline-box">
+					<div>
+						<div class="timeline-logo">
+							<img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000030_1550710829_ninjasicon.png">
+						</div>
+						<h3 class="experience-designation  m0 m-blue"> <span>Web-Tech Teaching Assistant</span>  </h3>
+						<h4 class="experience-company-name"> Coding Ninjas </h4>
+						<h5 class="experience-duration m0"> Oct 2021 - Nov 2021 </h5>
+
+						<div class="experience-description text-align-justify">
+							<ul>
+								<li>Taking doubt sessions on Data Structures and Algortihms Problems in Java.</li>
+								<li>Debugging codes of students and correcting their approach for different problems.</li>
+								<li>Monitoring the performance of students to make sure that they complete the lectures and assignments on time.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-divider work-timeline-divider-height">
+					<div class="timeline-traveller">
+						<div>
+							<i class="fas fa-plane"></i>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="education">
+			<h1 class="section-heading mb75px">
+				<span>
+					<i class="fas fa-graduation-cap"></i>
+				</span>
+				<span> Education </span>
+			</h1>
+
+			<div class="timeline">
+
+				<div class="timeline-box left ">
+					<div class="timeline-container">
+						<div class="timeline-logo mait">
+							<img
+								src="education/aktu.jpg">
+						</div>
+						<h3 class="experience-designation  m0 m-blue"> <span class="TA">BTech CSE</span>  </h3>
+						<h4 class="experience-company-name "> Dr. APJ Abdul Kalam Technical University </h4>
+						<h5 class="experience-duration m0"> Aug 2019 - Aug 2023 </h5>
+
+						<div class="experience-description text-align-justify"> 
+							<ul>
+								<li>
+									Bachelor Of Technology in Computer Science Department from Galgotias College of Engineering & Technology.. 
+									The CSE is an engineering discipline that covers several topics 
+									related to computation, programming languages, program design, 
+									computer hardware and software and integrates several fields of computer science. 
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-box right ">
+					<div class="timeline-container">
+						<div class="timeline-logo">
+							<img
+								src="education/cbse.jpg">
+						</div>
+						<h3 class="experience-designation  m0 m-blue"> CLASS XII </h3>
+						<h4 class="experience-company-name "> CBSE </h4>
+						<h5 class="experience-duration m0"> Feb 2018 - Feb 2019 </h5>
+						<div class="experience-description text-align-justify"> 
+							<ul>
+								<li>
+									
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-box left ">
+					<div class="timeline-container">
+						<div class="timeline-logo">
+							<img
+								src="education/cbse.jpg">
+						</div>
+						<h3 class="experience-designation  m0 m-blue"> CLASS X </h3>
+						<h4 class="experience-company-name "> CBSE </h4>
+						<h5 class="experience-duration m0"> Feb 2015 - Feb 2016 </h5>
+
+						<div class="experience-description text-align-justify"> 
+							<ul>
+								<li>
+									Bachelor Of Technology in Electronic and Communication Department 
+									from Maharaja Agrasen Institute Of Technology.The electronics part
+									deals with a wide array of subjects such as electrical circuit theory, 
+									semiconductors , and circuit design. Communications will broadly take 
+									you through Signal Processing, Electromagnetics , Antenna Theory 
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-divider">
+					<div class="timeline-traveller">
+						<div>
+							<i class="fas fa-car-side"></i>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- PORTFOLIO SECTION -->
+
+		<section id="portfolio">
+			<h1 class="section-heading mb75px">
+				<span>
+					<i class="fas fa-th-list"></i>
+				</span>
+				<span> Portfolio </span>
+			</h1>
+
+			<div id="portfolio-container">
+
+				<div class="display">
+					<div class="screen">
+						<div class="browser-container none">
+							<img src="projects/BrowserHeader.jpg" class="browser-header" alt="">
+							<div class="browser-area">
+								<video playsinline autoplay muted loop id="player">
+									<source src="projects/ipod.mp4" type="video/mp4" id="source">
+								</video>
+							</div>
+						</div>
+
+						<div class="icon"></div>
+
+					</div>
+				</div>
+
+				<div class="project-list">
+
+						<div class="project" data-id="0">
+						<h3 class="p-title">iPod Classic.js</h3>
+							<a rel="noopener noreferrer" href="#" target="_blank" rel="noopener" class="visit none pLinks">
+								<h3>Visit</h3>
+								<img src="projects/link.svg" alt="link">
+							</a>
+						</div>
+
+							<div class="project" data-id="1">
+						<h3 class="p-title">Descode.co</h3>
+							<a rel="noopener noreferrer" href="#" target="_blank" rel="noopener" class="visit none pLinks">
+								<h3>Visit</h3>
+								<img src="projects/link.svg" alt="link">
+							</a>
+						</div>
+
+							<div class="project" data-id="2">
+						<h3 class="p-title">Netflix Clone.js</h3>
+							<a rel="noopener noreferrer" href="#" target="_blank" rel="noopener" class="visit none pLinks">
+								<h3>Visit</h3>
+								<img src="projects/link.svg" alt="link">
+							</a>
+						</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<section id="contact">
+			<h1 class="section-heading mb50px">
+				<span>
+					<i class="far fa-address-card"></i>
+				</span>
+				<span> Contact </span>
+			</h1>
+			<div id="contact-container">
+				<div id="contact-form-container">
+					<form id="contact-form">
+
+						<div class="input-group">
+							<input id="SenderName" name="name" type="text" required>
+							<span class="highlight"></span>
+							<span class="bar"></span>
+							<label> Name</label>
+						</div>
+
+						<div class="input-group">
+							<input id="SenderSubject" name="email" type="text" required>
+							<span class="highlight"></span>
+							<span class="bar"></span>
+							<label>Subject</label>
+						</div>
+
+						<div class="input-group">
+							<textarea id="SenderMessage" name="message" rows="2" cols="40" required></textarea>
+							<span class="highlight"></span>
+							<span class="bar"></span>
+							<label>Message</label>
+						</div>
+						<button class="sub-btn" id="send-button" type="submit">SEND MESSAGE</button>
+					</form>
+				</div>
+
+				<div id="my-details-container">
+
+					<h3> Get In touch </h3>
+					<p> I would love to hear from you. Contact me on the number provided below. </p>
+
+					<h3> My Address </h3>
+					<div class="my-details-info-container">
+						<i class="fas fa-map-marker-alt"></i>
+						<span>Mohan Nagar, Ghaziabad, UP(201007), India</span>
+					</div>
+					<div class="my-details-info-container">
+						<a class="contact-section-mail-link otherLinks" rel="noopener noreferrer" href="tel:9711181457">
+						<i class="fas fa-mobile-alt"></i>
+						<span>9582126438</span>
+						</a>
+					</div>
+					<div class="my-details-info-container">
+						<a class="contact-section-mail-link otherLinks" rel="noopener noreferrer" href="mailto:ggharshit1@gmail.com">
+						<i class="far fa-envelope"></i>
+							<span>ggharshit1@gmail.com</span>
+					   </a>
+					</div>
+				</div>
+			</div>
+			<div class="text-center social-icons">
+
+				<ul class="horizontal-list no-list-style bottom-icons">
+					<li>
+						<!-- linkedin -->
+						<a rel="noopener noreferrer" href="https://www.linkedin.com/in/harshitgarg-mercuryhg007/"><i
+								class="fab fa-linkedin-in"></i>
+						</a>
+					</li>
+					<li>
+						<!-- mailto -->
+						<a rel="noopener noreferrer" href="mailto:ggharshit1@gmail.com"><i class="fas fa-envelope"></i>
+						</a>
+					</li>
+					<li>
+						<!--  Gihub  -->
+						<a rel="noopener noreferrer" href="https://github.com/MercuryHG007"><i class="fab fa-github"></i></i>
+						</a>
+					</li>
+				</ul>
+		</section>
+	</main>
+</body>
+
+</html>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
