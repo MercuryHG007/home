@@ -110,9 +110,9 @@ $('form').on('submit', function (e) {
     .replace(/(\r\n|\n|\r)/gm, '%0D%0A')
 
   location.href =
-    'mailto:sagargupta1417@gmail.com' +
+    'mailto:ggharshit1@gmail.com' +
     ('?subject=' + subject) +
-    ('&body=' + message)
+    ('&body=' + 'Hi Harshit, I am ' + name + ' and my message is: \n' + message)
 
   $('#SenderName').val('')
   $('#SenderSubject').val('')
@@ -133,7 +133,10 @@ $(window).on('scroll', function (event) {
     skillsLoaded = true
     $('.f85').addClass('eighty-five-percent')
     $('.f80').addClass('eighty-percent')
+    $('.f75').addClass('seventy-five-percent')
     $('.f70').addClass('seventy-percent')
+    $('.f65').addClass('sixty-five-percent')
+    $('.f60').addClass('sixty-percent')
   }
 
   if (
@@ -151,15 +154,18 @@ $('.skillsLoading').on('click', function () {
     setTimeout(() => {
       $('.f85').addClass('eighty-five-percent')
       $('.f80').addClass('eighty-percent')
+      $('.f75').addClass('seventy-five-percent')
       $('.f70').addClass('seventy-percent')
+      $('.f65').addClass('sixty-five-percent')
+      $('.f60').addClass('sixty-percent')
       skillsLoaded = true
-    }, 1000)
+    }, 500)
   }
 })
 
 // ----------------------------------------------------------------------
 // projects
-var projects = ['ipod', 'descode', 'netflix']
+var projects = ['ipod', 'health-prediction', 'flying-bee' , 'netflix']
 let pid = 0
 var laptopOn = false
 

@@ -1004,7 +1004,7 @@ button:focus {
 }
 
 .mb-gold {
-  background-color: rgb(0, 140, 255);
+  background-color: #ffd700;
   width: 0;
 }
 
@@ -1028,6 +1028,15 @@ button:focus {
   }
 }
 
+@keyframes seventy-five {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
 @keyframes seventy {
   0% {
     width: 0%;
@@ -1036,6 +1045,26 @@ button:focus {
     width: 70%;
   }
 }
+
+@keyframes sixty-five {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes sixty {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+
 
 .eighty-five-percent {
   height: inherit;
@@ -1049,10 +1078,28 @@ button:focus {
   animation: eighty 2s;
 }
 
+.seventy-five-percent {
+  height: inherit;
+  width: 75%;
+  animation: seventy-five 2s;
+}
+
 .seventy-percent {
   height: inherit;
   width: 70%;
   animation: seventy 2s;
+}
+
+.sixty-five-percent {
+  height: inherit;
+  width: 65%;
+  animation: sixty-five 2s;
+}
+
+.sixty-percent {
+  height: inherit;
+  width: 60%;
+  animation: sixty 2s;
 }
 
 @media only screen and (max-width: 450px) {
@@ -1076,6 +1123,14 @@ button:focus {
     margin-top: 100px;
     padding: 20px;
   }
+
+  .timeline-divider {
+    left: 5% !important;
+  }
+
+  .timeline-box::after {
+    left: -11% !important;
+  }
 }
 
 @media only screen and (max-width: 572px) {
@@ -1087,9 +1142,22 @@ button:focus {
     padding: 0px 20px;
   }
 
+  .timeline{
+    width: 90%;
+  }
+
   .timeline-box {
     width: 100%;
     left: 10% !important;
+  }
+
+  .timeline-box::after {
+    left: -4% ;
+  }
+
+  .timeline-logo{
+    left: 3% !important;
+    width: 45px !important;
   }
 
   .bars {
@@ -1123,8 +1191,8 @@ button:focus {
   }
 
   .timeline-divider {
-    left: 5%;
-    top: 5%;
+    left: 10%;
+    top: 5% !important;
   }
 
   .bar {
@@ -1133,11 +1201,16 @@ button:focus {
 
   .timeline-box {
     left: 12% !important;
-    width: 90%;
+    width: 75%;
   }
 
   .timeline-box::after {
-    left: -9% !important;
+    left: -3.5%;
+  }
+
+  .timeline-logo{
+    left: 5%;
+    width: 90px;
   }
 
   #contact-form {
