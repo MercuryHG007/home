@@ -53,7 +53,6 @@ var totopbutton = document.getElementById("ToTop");
 window.onscroll = () => {scrollFunction()};
 
 function scrollFunction() {
-  console.log("scrolled")
   if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
     totopbutton.style.visibility = "visible";
   } else {
