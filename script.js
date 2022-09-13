@@ -164,7 +164,7 @@ $('.skillsLoading').on('click', function () {
 
 // ----------------------------------------------------------------------
 // projects
-var projects = ['ipod', 'health-prediction', 'flying-bee' , 'netflix']
+var projects = [ 'health-prediction', 'flying-bee' , 'ipod', 'netflix']
 let pid = 0
 var laptopOn = false
 
