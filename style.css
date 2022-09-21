@@ -214,7 +214,7 @@ nav {
 .popup-content {
   background-color: rgba(48, 48, 48, 0.945);
   border: 1px solid #888;
-  height: 98%;
+  height: 100%;
   width: 40%;
 }
 
@@ -229,7 +229,7 @@ nav {
 .navigation {
   margin-top: 50px;
   color: lightgray;
-  font-size: small;
+  font-size: larger;
   padding: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
